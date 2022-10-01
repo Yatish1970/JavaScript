@@ -52,4 +52,4 @@ server.post("/post", function(req,resp)
     )
     resp.send(output);
 })
-server.listen(8080, start)
+server.listen(3000, start)
