@@ -52,4 +52,4 @@ server.post("/post", function(req,resp)
     )
     resp.send(output);
 })
-server.listen(3000, start)
+server.listen(process.env.PORT || 3000, start)
